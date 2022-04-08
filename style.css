@@ -39,7 +39,17 @@ header{
     justify-content: space-between;
     box-shadow: 0 .5rem 1rem 0 rgba(0,0,0, .1);
 }
-
+.section {
+    background-image: url(./images/header.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* background-position: center; */
+}
+.btn {
+    display: inline-block;
+    margin-top: 1.7rem;
+    border: 1px solid rgb(223, 47, 111);
+}
 /* logo */
 header .logo{
     font-size:2.5rem;
@@ -92,13 +102,14 @@ header .icons a:focus{
     border-radius: .3rem;
     cursor: pointer;
     display: none;
+    color: var(--white);
 }
 
 
 
 @media (max-width:1100px) {
     html{
-        font-size: 55%;
+        font-size: 60%;
     }
     header{
         padding: 2rem;
@@ -113,7 +124,7 @@ header .icons a:focus{
         top: 100%;
         left: -120%;
         width: 100vw;
-        background-image: url(./images/header.jpg);
+        background-image: url(./images/headerOne.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         border-top:  .1rem solid rgba(0,0,0,0.1);
@@ -126,16 +137,17 @@ header .icons a:focus{
         left: 0;
     }
     header .navbar a{
-        font-size: 2rem;
+        font-size: 3rem;
         margin: 1.5rem;
         display: block;
         font-weight: bold;
+        color: var(--black);
+        text-align: center;
     }
 }
 @media (max-width:400px) {
     html{
         font-size: 50%;
-
     }
 }
-
+/* section */
