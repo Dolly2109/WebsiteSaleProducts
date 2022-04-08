@@ -120,15 +120,13 @@ header .icons a:focus{
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+        flex-direction: column;
     }
     header .navbar.active{
         left: 0;
     }
     header .navbar a{
         font-size: 2rem;
-        border: .2rem solid #fff;
-        border-radius: .5rem;
-        padding: 1.5rem;
         margin: 1.5rem;
         display: block;
         font-weight: bold;
