@@ -4,10 +4,17 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Shop C\_Tus</title>
+	<!-- css -->
 	<link rel="stylesheet" href="./style.css">
+	<!-- icons -->
 	<link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
 	<!-- font-awesome cdnjs.com -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+	<!-- Bootstrap js and css -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+	<!-- icons -->
+	<link rel="stylesheet" href="./themify-icons/themify-icons.css">
 </head>
 <body>
 	<!-- home header starts -->
@@ -17,9 +24,13 @@
 		<nav class="navbar">
 			<a href="#home">home</a>
 			<a href="#products">products</a>
-			<a href="#featured">featured</a>
+			<a href="#featured">news</a>
 			<a href="#review">review</a>
 		</nav>
+		<div class="search">
+			<input type="text" class="form-control text" placeholder="Search">
+			<button class="ti-search btn-search" type="send"></button>
+		</div>
 		<div class="icons">
 			<a href="#"	class="fas fa-heart" ></a>
 			<a href="#"	class="fas fa-shopping-cart"></a>
@@ -27,56 +38,8 @@
 		</div>
 	</header>
 	<!-- home header end -->
+	
 
-	<!-- home section starts -->
-
-		<seciton class="home" id="home">
-			
-			<div class="slide-container">
-				<div class="slide">
-					<div class="content">
-						<span>Nike red shoes</span>
-						<h3>nike metcon shoes</h3>
-						<p>Le Thi Cam Tu</p>
-						<a href="#"class="btn">add to cart</a>
-					</div>
-					<div class="image">
-						<img src="./images/home-shoe-1.png" class="shoes" alt="">
-						<img src="./images/home-text-1.png" class="text" alt="">
-					</div>
-				</div>
-			</div>
-			<div class="slide-container">
-				<div class="slide">
-					<div class="content">
-						<span>Nike blue shoes</span>
-						<h3>nike metcon shoes</h3>
-						<p>Le Thi Cam Tu</p>
-						<a href="#"class="btn">add to cart</a>
-					</div>
-					<div class="image">
-						<img src="./images/home-shoe-2.png" class="shoes" alt="">
-						<img src="./images/home-text-2.png" class="text" alt="">
-					</div>
-				</div>
-			</div>
-			<div class="slide-container">
-				<div class="slide">
-					<div class="content">
-						<span>Nike yellow shoes</span>
-						<h3>nike metcon shoes</h3>
-						<p>Le Thi Cam Tu</p>
-						<a href="#"class="btn">add to cart</a>
-					</div>
-					<div class="image">
-						<img src="./images/home-shoe-3.png" class="shoes" alt="">
-						<img src="./images/home-text-3.png" class="text" alt="">
-					</div>
-				</div>
-			</div>
-		</seciton>
-
-	<!-- home section end -->
 
 
 
@@ -88,7 +51,6 @@
 
 
 	<script src="./main.js">
-		let slideIndex = 1;
 		
 	</script>
 
