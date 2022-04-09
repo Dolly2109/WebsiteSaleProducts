@@ -40,8 +40,9 @@ header{
     justify-content: space-between !important;
     box-shadow: 0 .5rem 1rem 0 rgba(0,0,0, .1) !important;
 }
+/* navmain */
 
-.btn {
+.btn{
     display: inline-block;
     margin-top: 1.7rem;
     border: 1px solid rgb(223, 47, 111);
@@ -107,8 +108,63 @@ header .icons a:hover{
 header .icons a:focus{
     color:var(--xam);
 }
-.row{
-   
+/* Features */
+.features {
+    padding: 100px 0;
+}
+h1 {
+    text-align: center;
+    padding-bottom: 30px;
+}
+.features-img img {
+    width: 100%;
+
+}
+.price {
+    width: 50px;
+    height: 50px;
+    background: #ff5722;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 0 0 10px 1px rgba(37,73,214,0.18);
+    position: absolute;
+    left: 20px;
+    bottom: -25px;
+}
+.features-img {
+    position: relative;
+}
+.rating {
+    padding: 3px;
+    float: right;
+    background: #fff;
+    bottom: -1;
+    right: 0;
+    position: absolute;
+}
+.features .bi {
+    font-size: 15px;
+    color: #ff5722;
+}
+.feature-details {
+    padding: 22px;
+    text-align: justify;
+}
+.feature-details h4 {
+    font-weight: 600;
+    margin-top: 20px;
+}
+.feature-details .fa {
+    margin-right: 5px;
+}
+.icon-ft {
+    color: var(--pink);
+}
+.features-box {
+    box-shadow: 0 0 10px 1px rgba(37,73,214,0.18);
+    margin-bottom: 30px;
 }
 #menu-bar{
     font-size: 2.5rem;
@@ -150,6 +206,7 @@ header .icons a:focus{
     }
     header .navbar.active{
         left: 0;
+        transition: .7s;
     }
     header .navbar a{
         font-size: 3rem;
@@ -159,10 +216,15 @@ header .icons a:focus{
         color: var(--black);
         text-align: center;
     }
-}
-@media (max-width:400px) {
-    html{
-        font-size: 50%;
+    header .navbar a:focus{
+        color:var(--xam);
+        box-shadow: 10px 5px 5px #c41443;
+        border-bottom: none;
+        font-size: 2.5rem;
     }
 }
-/* section */
+/*--------------------------------------------------------------------------------------------------*/
+
+
+
+
