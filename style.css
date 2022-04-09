@@ -86,7 +86,6 @@ header .navbar a{
 header .navbar a:hover{
     color:var(--pink);
     box-shadow: 10px 5px 5px #00e1ff;
-    font-size: 1.5rem;
     border-bottom: none;
 }
 header .navbar a:focus{
