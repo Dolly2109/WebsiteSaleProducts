@@ -273,11 +273,11 @@ header .icons a:focus{
     justify-content: space-between;
 }
 .link-title h4 {
-    color: #fab3c4;
-    margin-bottom: 20px;
+    color: var(--blue);
+    margin-top: 5rem;
 }
 .link-title small {
-    color: #777;
+    color: var(--pink);
     font-size: 13px;
 }
 .footer-info {
@@ -294,6 +294,9 @@ header .icons a:focus{
     padding: 12px 38px;
     margin-top: 20px;
     font-size: 10px
+}
+.copyright-text small {
+    color: var(--orange);
 }
 .copyright-text, .footer-logo{
     flex-basis: 40%;
