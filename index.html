@@ -77,6 +77,8 @@
   </button>
 </div>
 	<!-- end Carousel	 -->
+
+    <!-- start icons support -->
 	  <!-- social - icons -->
   <div class="social-icons">
                     <li>
@@ -109,7 +111,7 @@
                     </li>
                 </div>
 </div>
-
+<!-- end icons support -->
 <!-- //////////////////////////////////////////////////////////////////////////////////////////////// -->
 
 	<!-- starts nav -->
@@ -163,14 +165,17 @@
 <!-- end nav -->
 
 <!-- show product -->
-<div class="container" id="products">
 
+    <!-- features -->
+    <section class="features" id="products">
+        <div class="container">
+            <h1 class="product-title">New product</h1>
             </div>
             <div class="row">
                 <div class="col-md-4">
                     <div class="features-box">
                         <div class="features-img">
-                            <img src="./images/headerOne.jpg" alt="">
+                            <img src="./images/bgr-header.jpg" alt="">
                             <div class="price">
                                 <p>78$</p>
                             </div>
@@ -182,16 +187,12 @@
                                 <i class="bi bi-star"></i>
                             </div>
                         </div>
+                        <h5 class="name-product"> <strong>@Dolly 2022</strong></h5>
                         <div class="feature-details">
-                            <h4><a href="#">Detail..</a></h4>
-                            <h4><a href="#">Add to cart</a>
+                            <p><a href="#">Detail..</a></p>
+                            <p><a href="#">Add to cart</a>
                             <i href="#"	class="fas fa-shopping-cart icon-ft"></i>
-                            </h4>
-                            <div>
-                                <span><i class="bi bi-star-fill">Los Angeles</i></span>
-                                <span><i class="bi bi-sun-fill">4 Days</i></span>
-                                <span><i class="bi bi-moon-fill">3 Nights</i></span>
-                            </div>
+                            </p>                       
                         </div>
                     </div>
                 </div>
@@ -210,22 +211,19 @@
                                 <i class="bi bi-star"></i>
                             </div>
                         </div>
+                        <h5 class="name-product"><strong>@Dolly 2022</strong></h5>
                         <div class="feature-details">
-                            <h4><a href="#">Detail..</a></h4>
-                            <h4><a href="#">Add to cart</a>
+                            <p><a href="#">Detail..</a></p>
+                            <p><a href="#">Add to cart</a>
                             <i href="#"	class="fas fa-shopping-cart icon-ft"></i>
-                            </h4>                            <div>
-                                <span><i class="bi bi-star-fill">Los Angeles</i></span>
-                                <span><i class="bi bi-sun-fill">4 Days</i></span>
-                                <span><i class="bi bi-moon-fill">3 Nights</i></span>
-                            </div>
+                            </p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="features-box">
                         <div class="features-img">
-                            <img src="./images/header.jpg" alt="">
+                            <img src="./images/bgr-header.jpg" alt="">
                             <div class="price">
                                 <p>98$</p>
                             </div>
@@ -237,21 +235,19 @@
                                 <i class="bi bi-star"></i>
                             </div>
                         </div>
+                        <h5 class="name-product"><strong>@Dolly 2022</strong></h5>
                         <div class="feature-details">
-                            <h4><a href="#">Detail..</a></h4>
-                            <h4><a href="#">Add to cart</a>
+                            <p><a href="#">Detail..</a></p>
+                            <p><a href="#">Add to cart</a>
                             <i href="#"	class="fas fa-shopping-cart icon-ft"></i>
-                            </h4>                            <div>
-                                <span><i class="bi bi-star-fill">Los Angeles</i></span>
-                                <span><i class="bi bi-sun-fill">4 Days</i></span>
-                                <span><i class="bi bi-moon-fill">3 Nights</i></span>
-                            </div>
+                            </p>
                         </div>
                     </div>
                 </div>
         </div>
-    </section> 
-   	<!-- end show product -->
+    </section>
+    <!-- show product -->
+
    	<!-- starts footer -->
    	    <hr>
         <footer>
@@ -286,10 +282,10 @@
                         <div class="footer-info">
                             <div class="copyright-text">
                                 <small>support@Xypo.com</small> <br>
-                                <small>&copy;Dolly-Chan <?= date('Y') ?></small>
+                                <small>&copy;Dolly-Chan 2022</small>
                             </div>
                             <div class="footer-logo">
-                                <img src="images/logo.png" alt="">
+                                <img src="images/header.jpg">
                                 <button class="header-btn">English</button>
                             </div>
                         </div>
@@ -297,14 +293,9 @@
                 </div>
                 
         </footer>
+        <!-- end footer -->
         <!-- js -->
-        <script src="<?=URL?>asset/frontend./main.js">
+        <script src="./main.js">
         </script>
     </body>
-</html>
-   	<!-- end footer -->
-        <script type="text/javascript" src="./main.js">
-
-        </script>
-  	</body>
 </html>
